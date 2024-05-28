@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback form</title>
+</head>
+<body>
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <form method="post" action="https://script.google.com/macros/s/AKfycbzHF7MbUEEzBi_6a0N2zeIYhNhsT7MsMxuBpoiNvnrSJdLSDx00wJ5ZlLU-_Xf3G0GzCA/exec">
+            <h1>Feedback Form</h1>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table>
+                    <div>
+        
+                    <label for="Name of Program">Program Name: </label>
+
+                    <select name="Name of program" id="Name" size="1" style="height: 28px;">
+                        <option value="Fire Fighting Refresher Training">Fire Fighting Refresher Training</option>
+                        <option value="Induction Training for new joinee">Induction Training for new joinee</option>
+                        <option value="Induction training for transfer employess">Induction training for transfer employess</option>
+                        <option value="Work permit system training">Work permit system training</option>
+                        <option value="CISF Training">CISF Training</option>
+                        <option value="Other Training">Other Training</option>
+                    </select>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                   <!--<label for="status">Online Status:</label>
+                    <select name="O_status" id="status">
+                        <option value="online">Online</option>
+                        <option value="ofline">Ofline</option>-->
+                    </select>
+                </div>
+                <tr>
+                    <td>
+                        <label for="Name">Employee name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Employee Name" id="name" placeholder="Enter your name" style="width: 120%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Payroll no.">Payroll no.: </label>
+                    </td>
+                    <td>
+                        <input type="tel" id="Payroll no." name="Payroll Number" placeholder=" Payroll Number" style="width: 120%;">
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td>
+                            <label for="address">Venue:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Venue" id="address" placeholder="Enter your venue" style="width: 120%;">
+                        </td>
+                    </tr>
+
+                   <!-- <tr>
+                        <td>
+                            <label for="email">Email: </label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="Email" placeholder="Enter your email" required style="width: 145%;">
+                        </td>
+                    </tr>-->
+                   
+                      <!-- <tr>
+                        <td>
+                            <label for="gender">Gender:</label>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="gender" value="male">
+                                    </td>
+                                    <td>
+                                        Male
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="gender" value="female">
+                                    </td>
+                                    <td>
+                                        Female
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="gender" value="other">
+                                    </td>
+                                    <td>
+                                        Other
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                  <tr>-->
+                        <td>
+                            <label for="dob">Date</label>
+                        </td>
+                        <td>
+                            <input type="date" id="date" name="Date" style="height: 30px;",width=200px;>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+           <fieldset>
+            <legend>Parameters</legend>
+            <div class="feedback-parameter">
+                <p>Coverage of the topics/contents:</p>
+                <div class="radio-container">
+                  <input type="radio" id="coverage-excellent" name="coverage" value="excellent">
+                  <label for="coverage-excellent">Excellent</label>
+                  
+                  <input type="radio" id="coverage-very-good" name="coverage" value="very-good">
+                  <label for="coverage-very-good">Very Good</label>
+                  
+                  <input type="radio" id="coverage-good" name="coverage" value="good">
+                  <label for="coverage-good">Good</label>
+                  
+                  <input type="radio" id="coverage-fair" name="coverage" value="fair">
+                  <label for="coverage-fair">Fair</label>
+                  
+                  <input type="radio" id="coverage-poor" name="coverage" value="poor">
+                  <label for="coverage-poor">Poor</label>
+                </div>
+              </div>
+              
+              <div class="feedback-parameter">
+                <p>Quality of presentation material:</p>
+                <div class="radio-container">
+                  <input type="radio" id="material-excellent" name="material" value="excellent">
+                  <label for="material-excellent">Excellent</label>
+                  
+                  <input type="radio" id="material-very-good" name="material" value="very-good">
+                  <label for="material-very-good">Very Good</label>
+                  
+                  <input type="radio" id="material-good" name="material" value="good">
+                  <label for="material-good">Good</label>
+                  
+                  <input type="radio" id="material-fair" name="material" value="fair">
+                  <label for="material-fair">Fair</label>
+                  
+                  <input type="radio" id="material-poor" name="material" value="poor">
+                  <label for="material-poor">Poor</label>
+                </div>
+              </div>
+              <div class="feedback-parameter">
+                <p>Presentation by faculty on subjects covered:</p>
+                <div class="radio-container">
+                  <input type="radio" id="Presentation by faculty-Excellent" name="Presentation by faculty" value="excellent">
+                  <label for="Presentation by faculty-Excellent">Excellent</label>
+                  
+                  <input type="radio" id="Presentation by faculty-Very Good" name="Presentation by faculty" value="very-good">
+                  <label for="Presentation by faculty-Very Good">Very Good</label>
+                  
+                  <input type="radio" id="Presentation by faculty-Good" name="Presentation by faculty" value="good">
+                  <label for="Presentation by faculty-Good">Good</label>
+                  
+                  <input type="radio" id="Presentation by faculty-Fair" name="Presentation by faculty" value="fair">
+                  <label for="Presentation by faculty-Fair">Fair</label>
+                  
+                  <input type="radio" id="Presentation by faculty-Poor" name="Presentation by faculty" value="poor">
+                  <label for="Presentation by faculty-Poor">Poor</label>
+                </div>
+              </div>
+              <div class="feedback-parameter">
+                <p>Time alloted to different topics</p>
+                <div class="radio-container">
+                  <input type="radio" id="Time alloted to different topics-Excellent" name="Time alloted to different topics" value="excellent">
+                  <label for="Time alloted to different topics-Excellent">Excellent</label>
+                  
+                  <input type="radio" id="Time alloted to different topics-Very Good" name="Time alloted to different topics" value="very-good">
+                  <label for="Time alloted to different topics-Very Good">Very Good</label>
+                  
+                  <input type="radio" id="Time alloted to different topics-Good" name="Time alloted to different topics" value="good">
+                  <label for="Time alloted to different topics-Good">Good</label>
+                  
+                  <input type="radio" id="Time alloted to different topics-Fair" name="Time alloted to different topics" value="fair">
+                  <label for="Time alloted to different topics-Fair">Fair</label>
+                  
+                  <input type="radio" id="Time alloted to different topics-Poor" name="Time alloted to different topics" value="poor">
+                  <label for="Time alloted to different topics-Poor">Poor</label>
+                </div>
+              </div>
+              <div class="feedback-parameter">
+                <p>Ability of  faculty to clarify doubts:</p>
+                <div class="radio-container">
+                  <input type="radio" id="Ability of  faculty to clarify doubts-Excellent" name="Ability of  faculty to clarify doubts" value="excellent">
+                  <label for="Ability of  faculty to clarify doubts-Excellent">Excellent</label>
+                  
+                  <input type="radio" id="Ability of  faculty to clarify doubts-Very Good" name="Ability of  faculty to clarify doubts" value="very-good">
+                  <label for="Ability of  faculty to clarify doubts-Very Good">Very Good</label>
+                  
+                  <input type="radio" id="Ability of  faculty to clarify doubts-Good" name="Ability of  faculty to clarify doubts" value="good">
+                  <label for="Ability of  faculty to clarify doubts-Good">Good</label>
+                  
+                  <input type="radio" id="Ability of  faculty to clarify doubts-Fair" name="Ability of  faculty to clarify doubts" value="fair">
+                  <label for="Ability of  faculty to clarify doubts-Fair">Fair</label>
+                  
+                  <input type="radio" id="Ability of  faculty to clarify doubts-Poor" name="Ability of  faculty to clarify doubts" value="poor">
+                  <label for="Ability of  faculty to clarify doubts-Poor">Poor</label>
+                </div>
+              </div>
+               <!-- <div>
+                    <label for="dept">Department: </label>
+
+                    <select id="dept">
+                        <option value="dept1">Department #1</option>
+                        <option value="dept2">Department #2</option>
+                        <option value="dept3">Department #3</option>
+                        <option value="dept4">Department #4</option>
+                    </select>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                   <label for="status">Online Status:</label>
+                    <select name="O_status" id="status">
+                        <option value="online">Online</option>
+                        <option value="ofline">Ofline</option>
+                    </select>
+                </div>-->
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Feedback</legend>
+               <div>
+                    <textarea
+                    id="msg"
+                    name="Liked topic"
+                    rows="8"
+                    cols="40"
+                    placeholder="what topics you liked most"></textarea>
+                    <textarea
+                    id="msg"
+                    name="Added topics"
+                    rows="8"
+                    cols="40"
+                    placeholder="what topics you feel should be included in this program"></textarea>
+                    <textarea
+                    id="msg"
+                    name="suggestions"
+                    rows="8"
+                    cols="40"
+                    placeholder="Your suggestions for improving the effectiveness of program"></textarea>
+                </div>
+            </fieldset>
+               
+            <div id="submitbutton">
+                <button type="submit" id="submit">Submit your feedback</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
